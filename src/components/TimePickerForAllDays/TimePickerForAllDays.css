@@ -1,0 +1,96 @@
+.time-field-component .input-label {
+  color: #595959;
+  font-family: Roboto;
+  font-size: 12px;
+  letter-spacing: 0.98px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+.time-field-component .heading {
+  display: flex;
+  color: #595959;
+  font-family: Roboto;
+  font-size: 12px;
+  letter-spacing: 0.98px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+.time-field-component .custom-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.time-field-component .time-day {
+  flex: 0 0 120px;
+  max-width: 120px;
+  text-align: center;
+
+}
+.time-field-component .time-to {
+  width: 50px;
+  flex: 0 0 50px;
+  max-width: 50px;
+  text-align: center;
+}
+.time-field-component .start-time {
+  flex: 0 0 85px;
+  max-width: 85px;
+  width: 85px;
+  text-align: center;
+
+}
+.time-field-component .end-time {
+  width: 85px;
+  flex: 0 0 85px;
+  max-width: 85px;
+  text-align: center;
+
+}
+.time-field-component .input-label.error {
+  color: #fc5e34;
+}
+.time-field-component .form-controls {
+  box-sizing: border-box;
+  /* height: 42px; */
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  border: 1px solid #b2b2b5;
+  border-radius: 3px;
+  background-color: #ffffff;
+  color: #595959;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 16px;
+  word-break: normal;
+}
+.time-field-component .form-controls.disabled {
+  color: #252526 !important;
+  font-weight: 400;
+  pointer-events: none;
+  /* height: 32px; */
+  background-color: #f7f9fe;
+}
+.time-field-component .form-controls.error {
+  border-color: #fc5e34;
+}
+.time-field-component .helper-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #595959;
+  /* // white-space: nowrap;
+  // overflow: hidden;
+  // display: block;
+  // text-overflow: ellipsis; */
+}
+.time-field-component .helper-text.error {
+  color: #fc5e34;
+}
